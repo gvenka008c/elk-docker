@@ -15,6 +15,8 @@ The goal of the project is to set up a dockerized version of Logstash to gather 
 * Filebeat: Installed on client servers that will send their logs to Logstash.
 
 
+![alt tag] (https://github.com/gvenka008c/elk-docker/blob/master/images/ELK%20Stack.png)
+
 
 #Versions:
 
@@ -89,6 +91,7 @@ Ports that are exposed are
   9200     Elasticsearch JSON interface
 ```
 
+![alt tag] (https://github.com/gvenka008c/elk-docker/blob/master/images/Components.png)
 
 #Generate SSL Certificates
 
