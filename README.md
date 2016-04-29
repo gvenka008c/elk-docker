@@ -150,7 +150,25 @@ Assuming that our hosts are reachable from your log producers under the names ho
 3) Configure filebeat.yml as per the project needs
 
 ```
-sudo vi /etc/filebeat/filebeat.yml
+more  vi /etc/filebeat/filebeat.yml
+
+output:
+  logstash:
+    enabled: true
+    hosts:
+      - elk_server_ip_address:5044
+    tls:
+      certificate_authorities:
+        - /etc/pki/tls/certs/logstash-forwarder.crt
+    timeout: 15
+
+filebeat:
+  prospectors:
+    -
+      paths:
+        - /var/log/syslog
+        - /var/log/messages
+      document_type: syslog
 
 ```
 
