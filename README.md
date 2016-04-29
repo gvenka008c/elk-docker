@@ -150,7 +150,7 @@ Assuming that our hosts are reachable from your log producers under the names ho
 3) Configure filebeat.yml as per the project needs
 
 ```
-more  vi /etc/filebeat/filebeat.yml
+#more /etc/filebeat/filebeat.yml
 
 output:
   logstash:
