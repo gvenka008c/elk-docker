@@ -35,7 +35,7 @@ RUN wget https://download.elastic.co/kibana/kibana/kibana-4.5.0-1.x86_64.rpm -O 
     yum -y install /tmp/kibana-4.5.0-1.x86_64.rpm; 
    
 #clean all the temporary files and yum cache
-RUN rm -rf /tmp/jdk-8u45-linux-x64.rpm; \
+RUN rm -rf /tmp/jdk-8u73-linux-x64.rpm; \
     rm -rf /tmp/elasticsearch-2.3.1.rpm; \
     rm -rf /tmp/logstash-2.3.1-1.noarch.rpm; \
     rm -rf /tmp/kibana-4.5.0-1.x86_64.rpm; \
