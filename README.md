@@ -28,13 +28,13 @@ The goal of the project is to set up a dockerized version of Logstash to gather 
 1) Clone the elk-docker repo
    
 ```
- git clone 
+ git clone https://github.com/gvenka008c/elk-docker.git
 ```
 
 2) To build the docker image from Dockerfile, follow the below steps
 
 ```
- #cd /elk-docker
+ #cd gvenka008c/elk-docker
  # docker build -t elk-docker .
 ```
 
