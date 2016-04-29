@@ -18,7 +18,7 @@ The goal of the project is to set up a dockerized version of Logstash to gather 
 
 #Versions:
 
-* Java: jdk-8u45-linux-x64.rpm
+* Java: jdk-8u73-linux-x64.rpm
 * Elastic Search: elasticsearch-2.3.1.rpm
 * Logstash: logstash-2.3.1-1.noarch.rpm
 * Kibana: kibana-4.5.0-1.x86_64.rpm
@@ -28,13 +28,13 @@ The goal of the project is to set up a dockerized version of Logstash to gather 
 1) Clone the elk-docker repo
    
 ```
- git clone 
+ git clone https://github.com/gvenka008c/elk-docker.git
 ```
 
 2) To build the docker image from Dockerfile, follow the below steps
 
 ```
- #cd /elk-docker
+ #cd gvenka008c/elk-docker
  # docker build -t elk-docker .
 ```
 
